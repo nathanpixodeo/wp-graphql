@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.6.4](https://github.com/wp-graphql/wp-graphql/compare/wp-graphql-acf/v2.6.3...wp-graphql-acf/v2.6.4) (2026-06-19)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump the wp-graphql-acf-composer-dev-minor-patch group in /plugins/wp-graphql-acf with 2 updates ([#3938](https://github.com/wp-graphql/wp-graphql/issues/3938)) ([c991ebb](https://github.com/wp-graphql/wp-graphql/commit/c991ebba555d946a23ff3a33a53a49bc0e747c36))
+* support WordPress 7.0 in the integration test matrix ([#3960](https://github.com/wp-graphql/wp-graphql/issues/3960)) ([391e7d3](https://github.com/wp-graphql/wp-graphql/commit/391e7d3fa02085f1905e87c2091bb025885dc6b6))
+* **wp-graphql-acf:** mock oEmbed in tests and unskip clone-field tests ([#3867](https://github.com/wp-graphql/wp-graphql/issues/3867)) ([0808257](https://github.com/wp-graphql/wp-graphql/commit/08082574d28efbf71d92d0c8dabe3ca04251beb9))
+
 ## [2.6.3](https://github.com/wp-graphql/wp-graphql/compare/wp-graphql-acf/v2.6.2...wp-graphql-acf/v2.6.3) (2026-06-11)
 
 
