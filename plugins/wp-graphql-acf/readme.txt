@@ -4,7 +4,7 @@ Tags: GraphQL, ACF, API, NextJS, Headless
 Requires at least: 5.9
 Tested up to: 7.0
 Requires PHP: 7.3
-Stable tag: 2.6.3
+Stable tag: 2.6.4
 License: GPL-3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -127,6 +127,14 @@ ACF Field Groups that did not have "graphql_types" defined AND were assigned to 
 This release is a complete re-architecture of WPGraphQL for ACF, introducing breaking changes to the GraphQL Schema and PHP API. Please read the [upgrade guide](https://acf.wpgraphql.com/upgrade-guide/) before upgrading.
 
 == Changelog ==
+
+= 2.6.4 =
+
+**Bug Fixes**
+
+* **deps-dev:** bump the wp-graphql-acf-composer-dev-minor-patch group in /plugins/wp-graphql-acf with 2 updates ([#3938](https://github.com/wp-graphql/wp-graphql/issues/3938))
+* support WordPress 7.0 in the integration test matrix ([#3960](https://github.com/wp-graphql/wp-graphql/issues/3960))
+* **wp-graphql-acf:** mock oEmbed in tests and unskip clone-field tests ([#3867](https://github.com/wp-graphql/wp-graphql/issues/3867))
 
 = 2.6.3 =
 
