@@ -1,5 +1,25 @@
 # Changelog
 
+## [2.17.0](https://github.com/wp-graphql/wp-graphql/compare/wp-graphql/v2.16.0...wp-graphql/v2.17.0) (2026-06-19)
+
+
+### New Features
+
+* add hour, minute, and second to DateInput for sub-day date filtering ([#3967](https://github.com/wp-graphql/wp-graphql/issues/3967)) ([f51aaa9](https://github.com/wp-graphql/wp-graphql/commit/f51aaa9aef05b442055bb8fa7210022750c57f59))
+* **deps:** bump the npm-prod-minor-patch group across 1 directory with 5 updates ([#3946](https://github.com/wp-graphql/wp-graphql/issues/3946)) ([493a88b](https://github.com/wp-graphql/wp-graphql/commit/493a88b984a488ced79e313919f028425f26b54e))
+* **deps:** bump the npm-prod-minor-patch group with 4 updates ([#3956](https://github.com/wp-graphql/wp-graphql/issues/3956)) ([2fbbdcb](https://github.com/wp-graphql/wp-graphql/commit/2fbbdcb477cb901226ae97b5e20b022f21d23f1b))
+
+
+### Bug Fixes
+
+* cursor pagination drops results for searched post connections (relevance-aware cursors) ([#3935](https://github.com/wp-graphql/wp-graphql/issues/3935)) ([b8f6405](https://github.com/wp-graphql/wp-graphql/commit/b8f6405f947c70aa433372b6d85b946fcb26db40))
+* **deps-dev:** bump @wordpress/env from 10.39.0 to 11.6.0 ([#3957](https://github.com/wp-graphql/wp-graphql/issues/3957)) ([8056225](https://github.com/wp-graphql/wp-graphql/commit/8056225698845930c661e8804ec13c80ef1d1233))
+* **deps-dev:** bump guzzlehttp/psr7 from 2.8.0 to 2.11.0 in /plugins/wp-graphql ([#3926](https://github.com/wp-graphql/wp-graphql/issues/3926)) ([d0258a7](https://github.com/wp-graphql/wp-graphql/commit/d0258a79ffc386c8cc6bbee4b2a611bc5d16af78))
+* **deps-dev:** bump phpstan/phpstan from 2.1.54 to 2.1.55 in /plugins/wp-graphql in the wp-graphql-composer-dev-minor-patch group ([#3874](https://github.com/wp-graphql/wp-graphql/issues/3874)) ([cfeff25](https://github.com/wp-graphql/wp-graphql/commit/cfeff2501e903d685e3cfae14cb9396a836f61b6))
+* **deps-dev:** bump phpstan/phpstan from 2.1.55 to 2.2.2 in /plugins/wp-graphql in the wp-graphql-composer-dev-minor-patch group ([#3953](https://github.com/wp-graphql/wp-graphql/issues/3953)) ([8eef55e](https://github.com/wp-graphql/wp-graphql/commit/8eef55edd3cae9436f4fd3d65cc619010df875f7))
+* **deps-dev:** bump the npm-dev-minor-patch group across 1 directory with 5 updates ([#3945](https://github.com/wp-graphql/wp-graphql/issues/3945)) ([2636204](https://github.com/wp-graphql/wp-graphql/commit/2636204b4209c8767a6dcd38b3ffdf99538b8ad5))
+* support WordPress 7.0 in the integration test matrix ([#3960](https://github.com/wp-graphql/wp-graphql/issues/3960)) ([391e7d3](https://github.com/wp-graphql/wp-graphql/commit/391e7d3fa02085f1905e87c2091bb025885dc6b6))
+
 ## [2.16.0](https://github.com/wp-graphql/wp-graphql/compare/wp-graphql/v2.15.1...wp-graphql/v2.16.0) (2026-06-10)
 
 
